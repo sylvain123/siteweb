@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">  
+  <link rel='stylesheet' type='text/css' href='normalize.css' />
+  <link rel='stylesheet' type='text/css' href='styles.css' />
+  <link rel='stylesheet' type='text/css' href='sidebar.css' />
+  <link rel='stylesheet' type='text/css' href='products.css' />
+  <title>Web Performance</title>
+</head>
+<body>
+  <div id="basket-animation-context" class="basket-animation-context"></div>
+  <header class="header">
+    <button class="header__sidebar" id="toggle-sidebar">
+      <img src="icons/nav.svg" alt="Sidebar" />
+    </button>
+
+    <img src="icons/title.svg" alt="40th APLIUT 2018 " />
+
+    <button class="header__basket" id="basket">
+        <img src="icons/basket.svg" alt="Basket" />
+        <span class="header__basket-count"></span>
+      </button>
+  </header>
+  
+  <div class="container">
+    <div id="sidebar" class="sidebar">
+      <nav class="sidebar__contents">
+        <ul class="sidebar__nav">
+          <li class="sidebar__nav-item">
+            <a href="index.html" class="sidebar__nav-item-link">Accueil</a>
+          </li>
+          
+          <li class="sidebar__nav-item">
+            <a href="programme.html" class="sidebar__nav-item-link">Programme</a>
+          </li>
+          <li class="sidebar__nav-item">
+            <a href="plan.html" class="sidebar__nav-item-link">Plan d'accès</a>
+          </li>
+          <li class="sidebar__nav-item">
+            <a href="hebergement.html" class="sidebar__nav-item-link">Hébergement et transports</a>
+          </li>
+             <li class="sidebar__nav-item">
+            <a href="inscriptions.html" class="sidebar__nav-item-link">Tarifs et inscriptions</a>
+          </li>
+               <li class="sidebar__nav-item">
+            <a href="swap_shops.html" class="sidebar__nav-item-link">Swaps-Shops</a>
+          </li>
+             <li class="sidebar__nav-item">
+            <a href="sponsors.html" class="sidebar__nav-item-link">Sponsors</a>
+          </li>
+            <li class="sidebar__nav-item">
+            <a href="contact.html" class="sidebar__nav-item-link">Nous contacter</a>
+          </li>
+        </ul>
+
+         <div class="credits">
+            Site réalisé pour l'IUT Informatique
+        
+            <ul class="credits__icon-credit">
+              <li class="credits__icon-credit-item">Evénement organisé par la société Romacyle</li>
+              <li class="credits__icon-credit-item">Site réalisé par Sylvain TRIBY</li>
+             
+            </ul>
+          </div>
+      </nav>
+    </div>
+    
+    <h1>Les sponsors</h1>
+
+    <img src="https://apliut2017.sciencesconf.org/data/sponsors/EFLogoBluePMS303NoBox.jpg" alt="Education First" style="width:400px; height=400px;">
+    <img src="https://apliut2017.sciencesconf.org/data/sponsors/GlobalExam.jpg" alt="Global Exam" style="width:400px; height=400px;">
+    <img src="https://apliut2017.sciencesconf.org/data/sponsors/logo_MyCow_noir.jpg" alt="MyCow" style="width:400px; height=400px;">
+    <img src="https://apliut2017.sciencesconf.org/data/sponsors/NG.jpg" alt="National Geographic Learning" style="width:400px; height=400px;">
+    <img src="https://apliut2017.sciencesconf.org/data/sponsors/logo_sanako.jpg" alt="Sanako" style="width:400px; height=400px;">
+    <img src="https://apliut2017.sciencesconf.org/data/sponsors/TEDU_XXL.jpg"  alt="Televic Education" style="width:400px; height=400px;">
+    <img src="https://apliut2017.sciencesconf.org/data/sponsors/LOGO_VOCABLE_ok.jpg" alt="Vocable" style="width:400px; height=400px;">
+    
+    
+  </div>
+</body>
+<script src="Sidebar.js"></script>
+<script src="Products.js"></script>
+</html>
